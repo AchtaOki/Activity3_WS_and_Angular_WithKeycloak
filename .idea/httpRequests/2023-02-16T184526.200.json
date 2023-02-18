@@ -1,0 +1,95 @@
+{
+  "_embedded": {
+    "bills": [
+      {
+        "billDate": "2023-02-16T17:24:05.933+00:00",
+        "customerId": 1,
+        "customer": null,
+        "total": 9846.54920471332,
+        "_links": {
+          "self": {
+            "href": "http://localhost:9083/bills/1"
+          },
+          "bill": {
+            "href": "http://localhost:9083/bills/1{?projection}",
+            "templated": true
+          },
+          "productItems": {
+            "href": "http://localhost:9083/bills/1/productItems"
+          }
+        }
+      },
+      {
+        "billDate": "2023-02-16T00:00:00.000+00:00",
+        "customerId": 4,
+        "customer": null,
+        "total": 0.0,
+        "_links": {
+          "self": {
+            "href": "http://localhost:9083/bills/2"
+          },
+          "bill": {
+            "href": "http://localhost:9083/bills/2{?projection}",
+            "templated": true
+          },
+          "productItems": {
+            "href": "http://localhost:9083/bills/2/productItems"
+          }
+        }
+      },
+      {
+        "billDate": null,
+        "customerId": 4,
+        "customer": null,
+        "total": 0.0,
+        "_links": {
+          "self": {
+            "href": "http://localhost:9083/bills/3"
+          },
+          "bill": {
+            "href": "http://localhost:9083/bills/3{?projection}",
+            "templated": true
+          },
+          "productItems": {
+            "href": "http://localhost:9083/bills/3/productItems"
+          }
+        }
+      },
+      {
+        "billDate": null,
+        "customerId": 4,
+        "customer": null,
+        "total": 0.0,
+        "_links": {
+          "self": {
+            "href": "http://localhost:9083/bills/4"
+          },
+          "bill": {
+            "href": "http://localhost:9083/bills/4{?projection}",
+            "templated": true
+          },
+          "productItems": {
+            "href": "http://localhost:9083/bills/4/productItems"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:9083/bills"
+    },
+    "profile": {
+      "href": "http://localhost:9083/profile/bills"
+    },
+    "search": {
+      "href": "http://localhost:9083/bills/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 4,
+    "totalPages": 1,
+    "number": 0
+  }
+}

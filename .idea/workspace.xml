@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08298b1f-e009-4f00-b7c6-041268ec7fdd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/BillingServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/entities/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/entities/BillProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/entities/ProductItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/repository/BillRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/repository/ProductItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/security/KeycloakAdapterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/service/CustomerRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/service/ProductRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/web/BillRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing-Service/src/test/java/com/sid/billingservice/BillingServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/src/main/java/org/sid/custumerservice/CustumerServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/src/main/java/org/sid/custumerservice/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/src/main/java/org/sid/custumerservice/entities/CustomerProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/src/main/java/org/sid/custumerservice/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custumer-Service/src/test/java/org/sid/custumerservice/CustumerServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ecom-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/src/main/java/org/sid/gateways/GatewaysApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateways/src/test/java/org/sid/gateways/GatewaysApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/src/main/java/org/sid/inventoryservices/InventoryServicesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/src/main/java/org/sid/inventoryservices/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/src/main/java/org/sid/inventoryservices/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Services/src/test/java/org/sid/inventoryservices/InventoryServicesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/org/sid/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/test/java/org/sid/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bill-details/bill-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bill-details/bill-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bill-details/bill-details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bill-details/bill-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bills/bills.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bills/bills.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bills/bills.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/bills/bills.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/customers/customers.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/customers/customers.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/customers/customers.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/customers/customers.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/product/product.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/product/product.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/product/product.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/product/product.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/products/products.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/products/products.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/products/products.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/app/products/products.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom-web-app/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Gateways" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2KgPpRhheYlgFLsrqVM58yvqXu6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "OverrideImplement.generate.javadoc": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/achtaissaoki/IdeaProjects/Ecom-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "ab42f8f3e95751fa2302454bc10abe8f",
+    "ts.external.directory.path": "/Users/achtaissaoki/IdeaProjects/Ecom-app/ecom-web-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sid.billingservice.model" />
+      <recent name="org.sid.discoveryservice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Gateways/src/main/resources" />
+      <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
+      <recent name="$PROJECT_DIR$/passerelle/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Gateway/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Inventory-Service/src/main/java" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.sid.billingservice.security" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustumerServiceApplication">
+    <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (ecom-web-app)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Billing-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sid.billingservice.BillingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustumerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Custumer-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.custumerservice.CustumerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.discoveryservice.DiscoveryServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.discoveryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewaysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Gateways" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.gateways.GatewaysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Inventory-Services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.inventoryservices.InventoryServicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server (ecom-web-app)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ecom-web-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api | #1" />
+        <item itemvalue="HTTP Request.rest-api | #3" />
+        <item itemvalue="HTTP Request.rest-api | #2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08298b1f-e009-4f00-b7c6-041268ec7fdd" name="Changes" comment="" />
+      <created>1674393438392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674393438392</updated>
+      <workItem from="1674393439659" duration="8791000" />
+      <workItem from="1674403464655" duration="5611000" />
+      <workItem from="1674425503122" duration="17880000" />
+      <workItem from="1674499023948" duration="5819000" />
+      <workItem from="1674550182946" duration="1166000" />
+      <workItem from="1674552370618" duration="449000" />
+      <workItem from="1676213350961" duration="2697000" />
+      <workItem from="1676252063425" duration="219000" />
+      <workItem from="1676271270362" duration="18204000" />
+      <workItem from="1676501732144" duration="22401000" />
+      <workItem from="1676714723139" duration="4871000" />
+      <workItem from="1676721276440" duration="4570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/discovery-service/src/main/java/org/sid/discoveryservice/DiscoveryServiceApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Billing-Service/src/main/java/com/sid/billingservice/repository/BillRepository.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

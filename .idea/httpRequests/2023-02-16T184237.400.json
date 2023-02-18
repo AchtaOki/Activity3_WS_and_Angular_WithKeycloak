@@ -1,0 +1,7 @@
+{
+  "cause": {
+    "cause": null,
+    "message": "Cannot deserialize value of type `java.util.Date` from String \"16/02/2023\": not a valid representation (error: Failed to parse Date value '16/02/2023': Cannot parse date \"16/02/2023\": not compatible with any of standard forms (\"yyyy-MM-dd'T'HH:mm:ss.SSSX\", \"yyyy-MM-dd'T'HH:mm:ss.SSS\", \"EEE, dd MMM yyyy HH:mm:ss zzz\", \"yyyy-MM-dd\"))\n at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 15] (through reference chain: com.sid.billingservice.entities.Bill[\"billDate\"])"
+  },
+  "message": "JSON parse error: Cannot deserialize value of type `java.util.Date` from String \"16/02/2023\": not a valid representation (error: Failed to parse Date value '16/02/2023': Cannot parse date \"16/02/2023\": not compatible with any of standard forms (\"yyyy-MM-dd'T'HH:mm:ss.SSSX\", \"yyyy-MM-dd'T'HH:mm:ss.SSS\", \"EEE, dd MMM yyyy HH:mm:ss zzz\", \"yyyy-MM-dd\"))"
+}

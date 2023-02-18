@@ -1,0 +1,41 @@
+{
+  "_embedded": {
+    "bills": [
+      {
+        "billDate": "2023-02-16T17:24:05.933+00:00",
+        "customerId": 1,
+        "customer": null,
+        "total": 9846.54920471332,
+        "_links": {
+          "self": {
+            "href": "http://localhost:9083/bills/1"
+          },
+          "bill": {
+            "href": "http://localhost:9083/bills/1{?projection}",
+            "templated": true
+          },
+          "productItems": {
+            "href": "http://localhost:9083/bills/1/productItems"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:9083/bills"
+    },
+    "profile": {
+      "href": "http://localhost:9083/profile/bills"
+    },
+    "search": {
+      "href": "http://localhost:9083/bills/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 1,
+    "totalPages": 1,
+    "number": 0
+  }
+}

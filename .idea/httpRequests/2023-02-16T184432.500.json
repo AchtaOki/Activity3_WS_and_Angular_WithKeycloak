@@ -1,0 +1,14 @@
+{
+  "billDate": "2023-02-16T00:00:00.000+00:00",
+  "customerId": 4,
+  "customer": null
+}{
+  "cause": {
+    "cause": {
+      "cause": null,
+      "message": "Cannot invoke \"java.util.List.iterator()\" because \"this.productItems\" is null"
+    },
+    "message": "Cannot invoke \"java.util.List.iterator()\" because \"this.productItems\" is null (through reference chain: org.springframework.data.rest.webmvc.json.PersistentEntityJackson2Module$PersistentEntityResourceSerializer$1[\"content\"]->com.sid.billingservice.entities.Bill[\"total\"])"
+  },
+  "message": "Could not write JSON: Cannot invoke \"java.util.List.iterator()\" because \"this.productItems\" is null"
+}
